@@ -6,7 +6,7 @@ export default function ImagesComp() {
     <section>
 
     
-        {data.map(item=><Card>
+        {data.map(item=><Card key={item.id}>
                 {item.id}
                 <img src={item.image}/>
         </Card>)}
