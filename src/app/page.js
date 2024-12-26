@@ -1,10 +1,4 @@
 "use static"
-<<<<<<< HEAD
-export default function Home() {
-  return (
-    <div className=" flex items-center justify-center">
-Really
-=======
 
 import AboutUs from "./AboutUsPart/AboutUs";
 import ImagesComp from "./ImagesComp";
@@ -18,7 +12,6 @@ export default function Home() {
       <AboutUs/>
       <Value_facts_part/>
       <ImagesComp/>
->>>>>>> feature_value
     </div>
   );
 }
