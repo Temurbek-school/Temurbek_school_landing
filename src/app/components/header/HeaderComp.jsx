@@ -6,7 +6,7 @@ export default function HeaderComp() {
     const [mode,setMode]=useState()
     const handleMode=()=>{
         const HTML_do=document.querySelector("#HTML_item")
-        HTML_do.classList.toggle("dark_mode")
+        HTML_do.classList.toggle("light_mode")
         console.log(HTML_do)
         setMode(!mode)
         
