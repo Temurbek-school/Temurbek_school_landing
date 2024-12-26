@@ -7,16 +7,21 @@
 
 
 .light_mode{
-  background-image:linear-gradient(45deg,lightblue 20%,blue 30%,darkgreen 50%);
+  /* background-image:linear-gradient(45deg,rgb(42, 42, 84) 5%,blue 80%,darkgreen 10%); */
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef, #dee2e6);
+
   background-repeat: no-repeat;
   width: 100vw;
   min-height: 100vh;
-  color:white;
+  color:black;
+  font-weight: bold;
+  overflow-x: hidden;
 }
 .dark_mode{
   background-image: none;
   background-image:linear-gradient(135deg,darkblue 10%,black 80%,rgb(12, 11, 11) 10%) !important;
   color:white !important;
+  overflow-x: hidden;
 }
 body {
   color: var(--foreground);

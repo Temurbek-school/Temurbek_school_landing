@@ -14,7 +14,7 @@ export default function HeaderComp() {
 
 
   return (
-    <header className={`flex  w-full items-center justify-between rounded-md opacity-70 border-2 ${!mode? "border-white":"border-black"} p-4`}>
+    <header className={`flex  w-full items-center text-2xl justify-between rounded-md ${mode?"bg-gray-700":"bg-gray-400"} opacity-70 border-2 ${mode? "border-white":"border-black"} p-4`}>
     
     <img src='/logo.jpg' className='w-10 h-10 rounded-md'></img>
     <Link href={"/"}>Home</Link>
