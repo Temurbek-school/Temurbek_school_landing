@@ -8,7 +8,7 @@ export default function AboutUs() {
       {/* First Section */}
       <div className="w-full flex flex-col md:flex-row items-center justify-between">
         <img className="w-full md:w-2/5 rounded-3xl pt-5" src="/certificates.jpg" alt="Certificates"></img>
-        <p className="text-lg w-full md:w-1/2 px-5 md:px-0 md:pl-10">
+        <p className="bg-opac w-full md:w-1/2 px-5 md:px-0 md:pl-10 pt-5 text-sm">
           Temurbek School was established by
           <b> Temurbek Shakhobov</b>, a seasoned educator with over <em>seven</em> years of expertise in teaching{" "}
           <b>General English, CEFR, Multilevel Tests, IELTS, TKT, and ESOL</b>. Under his guidance, students have
