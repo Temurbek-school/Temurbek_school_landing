@@ -19,7 +19,7 @@ export default function HeaderComp() {
     <img src='/logo.jpg' className='w-10 h-10 rounded-md'></img>
     <Link href={"/"}>Home</Link>
     <Link href={"./../../courses"}  >Courses</Link>
-    <Link href={"../../events"}>Events</Link>
+    <Link href={"../../projects"}>Projects</Link>
     <Link href={"../../mocks"}>Mocks</Link>
     <div className='flex items-center justify-between w-20 '>
         <h1>Uz</h1> 

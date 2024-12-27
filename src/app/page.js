@@ -1,7 +1,7 @@
 "use static"
 
 import AboutUs from "./AboutUsPart/AboutUs";
-import ContactForm from "./components/ContactFrom/ContactForm";
+import ContactForm from "./components/ContactForm/ContactForm";
 import ImagesComp from "./ImagesComp/ImagesComp";
 import Value_facts_part from "./value_facts_part/value_facts_part";
 import ValuePart from "./value_part/ValuePart";
@@ -16,6 +16,7 @@ export default function Home() {
       <AboutUs/>
       <Value_facts_part/>
       <ImagesComp/>
+      <Prices/>
       <Testimonials/>
     </div>
   );
