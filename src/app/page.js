@@ -1,7 +1,8 @@
 "use static"
 
 import AboutUs from "./AboutUsPart/AboutUs";
-import ImagesComp from "./ImagesComp";
+import ContactForm from "./components/ContactFrom/ContactForm";
+import ImagesComp from "./ImagesComp/ImagesComp";
 import Value_facts_part from "./value_facts_part/value_facts_part";
 import ValuePart from "./value_part/ValuePart";
 import Prices from "./Prices/Prices";
