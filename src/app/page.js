@@ -4,6 +4,7 @@ import AboutUs from "./AboutUsPart/AboutUs";
 import ImagesComp from "./ImagesComp";
 import Value_facts_part from "./value_facts_part/value_facts_part";
 import ValuePart from "./value_part/ValuePart";
+import Prices from "./Prices/Prices";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutUs/>
       <Value_facts_part/>
       <ImagesComp/>
+      <Prices />
     </div>
   );
 }
