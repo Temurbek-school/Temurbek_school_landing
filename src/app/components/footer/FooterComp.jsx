@@ -4,6 +4,7 @@ import ContactButton from '../ContactButton/ContactButton'
 export default function FooterComp() {
   return (
     <div className='flex items-center relative justify-center flex-col bg-violet-900 mt-32 pt-16 w-full top-0  h-fit p-14'>
+    {/* TODO Ibrohimbey footerni togirlang */}
         <section className='flex items-center justify-between bg-violet-800 w-4/5 p-8 rounded-2xl shadow-lg absolute top-20'>
             <div>
                 <h1 className='text-2xl font-semibold'>Kutmang</h1>

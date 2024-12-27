@@ -3,6 +3,7 @@ import React from 'react'
 
 export default function EventsPage() {
   return (
-    <div>EventsPage</div>
+    <div>All_projects</div>
+    // TODO all_projects-Xayrullo
   )
 }
