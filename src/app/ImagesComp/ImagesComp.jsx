@@ -40,9 +40,9 @@ export default function ImagesComp() {
           disabled={activeImage <= 1}
           onClick={handlePrevious}
         >
-          ⬅️ Previous
+          ⬅️ Oldingi
         </button>
-        <h1 className="text-center text-5xl font-bold capitalize text-orange-700">Our results</h1>
+        <h1 className="text-center text-5xl font-bold capitalize text-orange-700">Bizning natijalar</h1>
         <button
           className={`px-4 py-2 text-white font-bold rounded-lg transition ${
             activeImage >= wholedata.length - 1
@@ -52,7 +52,7 @@ export default function ImagesComp() {
           disabled={activeImage >= wholedata.length - 1}
           onClick={handleNext}
         >
-          Next ➡️
+          Keyingi ➡️
         </button>
       </div>
 

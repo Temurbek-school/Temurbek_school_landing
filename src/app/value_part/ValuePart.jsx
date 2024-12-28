@@ -7,16 +7,18 @@ export default function ValuePart() {
     <div className="flex flex-col md:flex-row items-center justify-between bg-opacity-50 bg-gray-600 w-full rounded-md pt-9">
       <div className="flex items-center justify-between flex-col w-full md:w-1/2 p-5">
         <h1 className="pb-6 text-2xl md:text-3xl w-full md:w-4/5">
-          "An investment in knowledge pays the best interest."
+          "Bilimga kiritilgan sarmoya eng yaxshi foydani beradi."
         </h1>
         <h3 className="pb-6 text-xl md:text-2xl w-full md:w-4/5">
           Benjamin Franklin
         </h3>
         <p className="pb-6 w-full md:w-4/5">
-          "We help you achieve success and support you every step of the way,
-          providing the tools, guidance, and encouragement you need to reach
-          your full potential. Together, we turn challenges into opportunities
-          and dreams into achievements."
+          "Biz sizga muvaffaqiyatga erishishingizda yordam beramiz va sizning
+          har bir qadamingizda qo'llab-quvvatlaymiz. Sizning to'liq
+          imkoniyatlaringizni ro'yobga chiqarishingiz uchun zarur bo'lgan
+          vositalar, yo'l-yo'riqlar va rag'batlantirishni taqdim etamiz.
+          Birgalikda biz qiyinchiliklarni imkoniyatlarga va orzularni
+          yutuqlarga aylantiramiz."
         </p>
         <ContactButton />
       </div>
@@ -24,7 +26,7 @@ export default function ValuePart() {
         <img
           src="/shakhobov_value.jpg"
           className="max-w-full h-auto rounded-md"
-          alt="Value"
+          alt="Qadriyat"
         />
       </div>
     </div>

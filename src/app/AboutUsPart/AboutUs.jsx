@@ -3,28 +3,30 @@ import React from "react";
 export default function AboutUs() {
   return (
     <section className="flex flex-col items-center bg-opacity-50 bg-gray-700 w-full pt-5 pb-5">
-      <h1 className="text-3xl capitalize pt-5 pb-5">About us</h1>
+      <h1 className="text-3xl capitalize pt-5 pb-5">Biz haqimizda</h1>
       
-      {/* First Section */}
+      {/* Birinchi Bo'lim */}
       <div className="w-full flex flex-col md:flex-row items-center justify-between">
-        <img className="w-full md:w-2/5 rounded-3xl pt-5" src="/certificates.jpg" alt="Certificates"></img>
+        <img className="w-full md:w-2/5 rounded-3xl pt-5" src="/certificates.jpg" alt="Sertifikatlar"></img>
         <p className="bg-opac w-full md:w-1/2 px-5 md:px-0 md:pl-10 pt-5 text-sm">
-          Temurbek School was established by
-          <b> Temurbek Shakhobov</b>, a seasoned educator with over <em>seven</em> years of expertise in teaching{" "}
-          <b>General English, CEFR, Multilevel Tests, IELTS, TKT, and ESOL</b>. Under his guidance, students have
-          consistently excelled, achieving C1 proficiency in General English and CEFR, alongside securing over 20 IELTS
-          scores of 7.0 and above. Notably, Temurbek Shakhobov is among the pioneering international English instructors
-          to attain the prestigious <b>TKT Band 4</b>, further underscoring his exceptional teaching capabilities and
-          commitment to excellence in language education.
+          Temurbek Maktabi <b> Temurbek Shaxobov</b> tomonidan tashkil etilgan bo'lib, ustoz <em>yetti</em> yildan ortiq ta'lim berish 
+          tajribasiga ega bo‘lgan o‘qituvchidir. Ustoz  <b>Umumiy Ingliz tili, CEFR, Multilevel testlar, IELTS, TKT va ESOL</b> bo‘yicha 
+          dars berib keladi. Uning rahbarligi ostida talabalar doimiy ravishda yuqori natijalarga erishib, Umumiy Ingliz tili va CEFR 
+          bo‘yicha C2 darajasiga erishdilar, shuningdek, 20 dan ortiq talabalar 7.0 va undan yuqori IELTS ballarini olishgan. 
+          Diqqatga sazovor jihati shundaki, Temurbek Shaxobov xalqaro ingliz tili o'qituvchilari orasida nufuzli <b>TKT Band 4 </b> 
+          darajasini qo'lga kiritgan birinchi o'qituvchilardan biri hisoblanadilar, bu esa ustozning ta'limdagi yuqori malakalarinini tasdiqlaydi.
         </p>
       </div>
       
-      {/* Second Section */}
+      {/* Ikkinchi Bo'lim */}
       <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between mt-5">
         <p className="w-full md:w-1/2 p-5 text-lg md:text-2xl">
-          Temurbek School is an educational center specializing in teaching General English, CEFR, TKT, and IELTS. The courses are conducted by highly qualified instructors, with a strong emphasis on enhancing students' speaking skills. To assess students' proficiency levels with greater precision and monitor their progress, level assessments are administered every three months.
+          Temurbek Maktabi - bu Umumiy Ingliz tili, CEFR, TKT va IELTS bo‘yicha ta’lim berishga ixtisoslashgan ta’lim markazi. 
+          Kurslar yuqori malakali o‘qituvchilar tomonidan olib boriladi va talabalarining muloqot qilish ko‘nikmalarini oshirishga 
+          alohida e’tibor qaratiladi. Talabalar darajasini aniqroq baholash va ularning rivojlanishini kuzatib borish uchun har 
+          uch oyda bir marta daraja baholash imtihonlari o‘tkaziladi.
         </p>
-        <img className="w-full md:w-2/5 rounded-3xl pt-5" src="/value_second_part.jpg" alt="Values"></img>
+        <img className="w-full md:w-2/5 rounded-3xl pt-5" src="/value_second_part.jpg" alt="Qadriyatlar"></img>
       </div>
     </section>
   );

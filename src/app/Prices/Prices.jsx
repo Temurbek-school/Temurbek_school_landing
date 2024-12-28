@@ -3,7 +3,7 @@ import React from 'react'
 export default function Prices() {
     return (
         <section className='flex flex-col pt-10'>
-        <h1 className='w-fit  flex items-center justify-center text-4xl bg-opacity-95 rounded-lg pl-5 pr-5 pt-2 pb-2 bg-orange-600 ml-auto mr-auto hover:bg-green-700 active:bg-green-900'>Offered Courses</h1>
+        <h1 className='w-fit  flex items-center justify-center text-4xl bg-opacity-95 rounded-lg pl-5 pr-5 pt-2 pb-2 bg-orange-600 ml-auto mr-auto hover:bg-green-700 active:bg-green-900'>Bizdagi kurslar</h1>
         <div className='flex flex-wrap justify-center gap-5 mt-10 text-white'>
         
             <div className='bg-neutral-800 px-12 py-7 rounded-3xl w-96'>

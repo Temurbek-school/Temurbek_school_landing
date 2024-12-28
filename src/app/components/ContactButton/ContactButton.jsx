@@ -7,7 +7,7 @@ export const toggle_form=()=>{
 export default function ContactButton() {
   
   return (
-    <Button onClick={()=>toggle_form()} variant='contained'>Leave Request</Button>
+    <Button onClick={()=>toggle_form()} variant='contained'>Aloqaga chiqish</Button>
     
   )
 }
