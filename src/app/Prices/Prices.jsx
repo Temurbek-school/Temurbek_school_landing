@@ -1,5 +1,6 @@
 import React from 'react'
 
+// TODO responsive
 export default function Prices() {
     return (
         <section className='flex flex-col pt-10'>

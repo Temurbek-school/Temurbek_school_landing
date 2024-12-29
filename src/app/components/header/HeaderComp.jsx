@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import ContactButton from '../ContactButton/ContactButton'
 
+// TODO responsive
 export default function HeaderComp() {
     const [mode,setMode]=useState()
     const handleMode=()=>{

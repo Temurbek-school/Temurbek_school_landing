@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactButton from '../ContactButton/ContactButton'
-
+// TODO responsive
 export default function FooterComp() {
   return (
     <div className='flex items-center relative justify-center flex-col bg-violet-900 mt-32 pt-16 w-full top-0  h-fit p-14'>

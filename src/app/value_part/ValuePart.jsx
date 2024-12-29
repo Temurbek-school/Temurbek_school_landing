@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import ContactButton from "../components/ContactButton/ContactButton";
-
+// TODO responsive
 export default function ValuePart() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between bg-opacity-50 bg-gray-600 w-full rounded-md pt-9">

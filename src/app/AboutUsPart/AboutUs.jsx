@@ -1,12 +1,12 @@
 import React from "react";
-
+// TODO responsive
 export default function AboutUs() {
   return (
     <section className="flex flex-col items-center bg-opacity-50 bg-gray-700 w-full pt-5 pb-5 mt-5">
       <h1 className="text-3xl capitalize pt-5 pb-5">Biz haqimizda</h1>
       
       {/* Birinchi Bo'lim */}
-      <div className="w-full flex flex-col md:flex-row items-center justify-between">
+      <div className="w-full flex flex-col md:flex-row items-center justify-evenly">
         <img className="w-full md:w-2/5 rounded-3xl pt-5" src="/certificates.jpg" alt="Sertifikatlar"></img>
         <p className="bg-opac w-3/6 shadow-md bg-opacity-80 bg-fuchsia-950 text-xl  px-5 pt-5 p-2 ">
           Temurbek Maktabi <b> Temurbek Shaxobov</b> tomonidan tashkil etilgan bo'lib, Temurbek Shakhobov <em>yetti</em> yildan ortiq ta'lim berish 
@@ -19,14 +19,14 @@ export default function AboutUs() {
       </div>
       
       {/* Ikkinchi Bo'lim */}
-      <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between mt-5">
+      <div className="w-full flex flex-col-reverse md:flex-row items-center justify-around mt-5">
         <p className="bg-opac w-3/6 shadow-md bg-opacity-80 bg-fuchsia-950  text-xl px-5 pt-5 p-2  ">
           Temurbek Maktabi - bu Umumiy Ingliz tili, CEFR, TKT va IELTS bo‘yicha ta’lim berishga ixtisoslashgan ta’lim markazi. 
           Kurslar yuqori malakali o‘qituvchilar tomonidan olib boriladi va talabalarining muloqot qilish ko‘nikmalarini oshirishga 
           alohida e’tibor qaratiladi. Talabalar darajasini aniqroq baholash va ularning rivojlanishini kuzatib borish uchun har 
           uch oyda bir marta daraja baholash imtihonlari o‘tkaziladi.
         </p>
-        <img className="w-full md:w-2/5 rounded-3xl pt-5" src="/value_second_part.jpg" alt="Qadriyatlar"></img>
+        <img width={"450px"} className="rounded-3xl pt-5 " src="/value_second_part.jpg" alt="Qadriyatlar"></img>
       </div>
     </section>
   );

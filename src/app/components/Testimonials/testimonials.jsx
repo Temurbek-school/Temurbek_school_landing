@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import testimonials from "../../data/testimonials.json";
-
+// TODO responsive
 export default function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0);
 

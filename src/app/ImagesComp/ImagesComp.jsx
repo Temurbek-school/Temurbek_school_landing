@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import wholedata from "../data/results.json";
 import "./styles.css"
+// TODO responsive
 export default function ImagesComp() {
   const [activeImage, setActiveImage] = useState(2); // Adjust initial image index if needed
 
@@ -42,7 +43,7 @@ export default function ImagesComp() {
         >
           ⬅️ Oldingi
         </button>
-        <h1 className="text-center text-5xl font-bold capitalize text-orange-700">Bizning natijalar</h1>
+        <h1 className="text-center text-4xl font-bold capitalize text-orange-400">Bizning natijalar</h1>
         <button
           className={`px-4 py-2 text-white font-bold rounded-lg transition ${
             activeImage >= wholedata.length - 1
@@ -99,7 +100,8 @@ export default function ImagesComp() {
           </div>
         ))}
       </div>
-      <div className="w-full bg-transparent border-red-500 border-2 h-7"><div style={{"width":activeImage*11.11+"%"}} className={`bg-green-800`}>progress</div> </div>
+      <div className="w-3/5 relative bg-transparent border-red-500 border-2 h-7"><div style={{"width":activeImage*11.11+"%"}} className={`bg-gradient-to-r from-orange-600 to-green-800  text-right`}> ➡️</div> </div>
+        
     </section>
   );
 }

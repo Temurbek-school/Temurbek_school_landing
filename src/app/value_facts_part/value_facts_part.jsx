@@ -1,5 +1,5 @@
 import React from 'react';
-
+// TODO responsive
 export default function Value_facts_part() {
   return (
     <section className="flex flex-col w-full items-center justify-between p-10 bg-opacity-30 bg-blue-300">
