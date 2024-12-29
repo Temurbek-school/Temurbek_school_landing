@@ -20,7 +20,7 @@ export default function HeaderComp() {
     <img src='/logo.jpg' className='w-10 h-10 rounded-md'></img>
     <Link className='hover:scale-125' href={"/"}>Home</Link>
     <Link className='hover:scale-125' href={"./../../courses"}  >Courses</Link>
-    <Link className='hover:scale-125' href={"../../projects"}>Projects</Link>
+    <Link className='hover:scale-125' href={"../../events"}>Events</Link>
     <Link className='hover:scale-125' href={"../../mocks"}>Mocks</Link>
     <ContactButton/>
     </header>
