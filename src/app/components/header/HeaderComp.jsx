@@ -1,6 +1,7 @@
 "use client"
 import Link from 'next/link'
 import React, { useState } from 'react'
+import ContactButton from '../ContactButton/ContactButton'
 
 export default function HeaderComp() {
     const [mode,setMode]=useState()
@@ -14,17 +15,14 @@ export default function HeaderComp() {
 
 
   return (
-    <header className={`flex  w-full items-center text-2xl justify-between rounded-md ${mode?"bg-gray-700":"bg-gray-400"} opacity-70 border-2 ${mode? "border-white":"border-black"} p-4`}>
+    <header className={`flex  w-full items-center text-2xl justify-between rounded-md bg-gradient-to-tr from-fuchsia-800 to-blue-800  border-2 border-white p-4`}>
     
     <img src='/logo.jpg' className='w-10 h-10 rounded-md'></img>
-    <Link href={"/"}>Home</Link>
-    <Link href={"./../../courses"}  >Courses</Link>
-    <Link href={"../../projects"}>Projects</Link>
-    <Link href={"../../mocks"}>Mocks</Link>
-    <div className='flex items-center justify-between w-20 '>
-        <h1>Uz</h1> 
-        <button onClick={()=>handleMode()}> {mode?"🌙":"🔆"}</button>
-    </div>
+    <Link className='hover:scale-125' href={"/"}>Home</Link>
+    <Link className='hover:scale-125' href={"./../../courses"}  >Courses</Link>
+    <Link className='hover:scale-125' href={"../../projects"}>Projects</Link>
+    <Link className='hover:scale-125' href={"../../mocks"}>Mocks</Link>
+    <ContactButton/>
     </header>
   )
 }

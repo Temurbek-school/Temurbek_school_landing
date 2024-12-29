@@ -11,7 +11,7 @@ import Testimonials from "./components/Testimonials/testimonials";
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center flex-col">
+    <div className="flex items-center bg-gradient-to-br from-violet-800 to-blue-950 justify-center flex-col">
       <ValuePart/> 
       <AboutUs/>
       <Value_facts_part/>
