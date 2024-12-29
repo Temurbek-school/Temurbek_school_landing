@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactButton from '../components/ContactButton/ContactButton'
 
 // TODO responsive
 export default function Prices() {
@@ -16,7 +17,7 @@ export default function Prices() {
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Gapirishga qaratilingan darslar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Yuqori darajadagi o'qituvchilar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Haftada 3 marta 2 soatdan darslar</p>
-                <button className='bg-transparent border border-white py-2 px-12 ml-7 rounded-xl mt-5'>Ro'yhatdan o'ting</button>
+                <ContactButton/>
             </div>
             <div className='bg-orange-500 px-12 py-7 rounded-3xl w-96'>
                 <span className='bg-green-500 p-3 rounded-xl'>IELTS</span>
@@ -27,7 +28,7 @@ export default function Prices() {
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Gapirishga qaratilingan darslar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Yuqori darajadagi o'qituvchilar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Haftada 3 marta 2 soatdan darslar</p>
-                <button className='bg-transparent border border-white py-2 px-12 ml-7 rounded-xl mt-5'>Ro'yhatdan o'ting</button>
+                <ContactButton/>
             </div>
             <div className='bg-blue-900 px-12 py-7 rounded-3xl w-96'>
                 <span className='bg-green-500 p-3 rounded-xl'>Matemetika</span>
@@ -37,7 +38,7 @@ export default function Prices() {
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Mantiqiy fikrlarshga qaratilgan darslar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Yuqori darajadagi o'qituvchilar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Haftada 3 marta 2 soatdan darslar</p>
-                <button className='bg-transparent border border-white py-2 px-12 ml-7 rounded-xl mt-5'>Ro'yhatdan o'ting</button>
+                <ContactButton/>
             </div>
             <div className='bg-green-600 px-12 py-7 rounded-3xl w-96'>
                 <span className='bg-green-500 p-3 rounded-xl'>Rus tili</span>
@@ -47,7 +48,7 @@ export default function Prices() {
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Gapirishga qaratilgan darslar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Yuqori darajadagi o'qituvchilar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Haftada 3 marta 2 soatdan darslar</p>
-                <button className='bg-transparent border border-white py-2 px-12 ml-7 rounded-xl mt-5'>Ro'yhatdan o'ting</button>
+                <ContactButton/>
             </div>
             <div className='bg-red-700 px-12 py-7 rounded-3xl w-96'>
                 <span className='bg-green-500 p-3 rounded-xl'>TOPIK</span>
@@ -57,7 +58,7 @@ export default function Prices() {
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Gapirishga qaratilgan darslar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Yuqori darajadagi o'qituvchilar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Haftada 3 marta 2 soatdan darslar</p>
-                <button className='bg-transparent border border-white py-2 px-12 ml-7 rounded-xl mt-5'>Ro'yhatdan o'ting</button>
+                <ContactButton/>
             </div>
             <div className='bg-violet-700 px-12 py-7 rounded-3xl w-96'>
                 <span className='bg-green-500 p-3 rounded-xl'>Prezident maktabiga tayyorlash</span>
@@ -68,7 +69,7 @@ export default function Prices() {
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Matematika, mantiqiy fikrlash <br /> va ingliz tili darslari</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Malakali va tajribali o'qituvchilar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Haftada 3 marta 2 soatdan darslar</p>
-                <button className='bg-transparent border border-white py-2 px-12 ml-7 rounded-xl mt-5'>Ro'yhatdan o'ting</button>
+                <ContactButton/>
             </div>
         </div>
         </section>
