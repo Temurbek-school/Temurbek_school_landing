@@ -25,7 +25,7 @@ export default function Testimonials() {
 
   return (
     <section className="my-16 px-4">
-      <h2 className="w-fit ml-auto pt-2 pb-2 pl-5 pr-5 rounded-md mr-auto text-3xl sm:text-4xl bg-pink-700 font-bold text-center mb-8 text-gray-800 dark:text-gray-100">
+      <h2 className="w-auto sm:w-3/4 md:w-1/2 ml-auto pt-2 pb-2 pl-5 pr-5 rounded-md mr-auto text-2xl sm:text-3xl md:text-4xl bg-pink-700 font-bold text-center mb-8 text-gray-800 dark:text-gray-100">
         Ba'zi o'quvchilarimizning fikrlari
       </h2>
       <div className="relative">
@@ -46,7 +46,7 @@ export default function Testimonials() {
                   <h3 className="font-semibold text-lg sm:text-xl text-white">
                     {testimonial.name}
                   </h3>
-                  <p className="text-white italic text-sm sm:text-base my-2">
+                  <p className="text-white italic text-sm sm:text-base my-2 bg-">
                     {testimonial.text}
                   </p>
                 </div>
