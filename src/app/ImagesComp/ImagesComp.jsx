@@ -23,10 +23,7 @@ export default function ImagesComp() {
     }
   };
 
-  const setViewImage = (e) => {
-    const selectedItem = document.getElementById(e.target.id);
-    selectedItem.classList.toggle("certificate");
-  };
+
 
   return (
     <section className="w-full flex flex-col items-center gap-6 p-5 pt-16">
@@ -68,7 +65,6 @@ export default function ImagesComp() {
           >
             {/* Image */}
             <img
-              onClick={(e) => setViewImage(e)}
               className={`w-full h-40 sm:w-1/2 sm:h-48 object-cover rounded-lg mb-5 sm:mb-0 sm:mr-5 transition-all duration-300`}
               src={item.image}
               alt={item.name}

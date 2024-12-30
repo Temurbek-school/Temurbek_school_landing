@@ -48,7 +48,7 @@ header_links.classList.toggle("enabled")
 
   return (
     <motion.header
-      className="flex w-full items-center text-2xl justify-between rounded-md bg-gradient-to-tr from-fuchsia-800 to-blue-800 border-2 border-white p-4"
+      className="flex w-full items-center text-2xl justify-between rounded-md bg-gradient-to-tr from-fuchsia-800 to-blue-800  shadow-xl p-4"
       variants={headerVariants}
       initial="hidden"
       animate="visible"
@@ -63,7 +63,7 @@ header_links.classList.toggle("enabled")
       <img src="/logo.jpg" className="w-10 h-10 rounded-md" alt="Logo" />
       </motion.div>
 
-      <motion.div id='header_links' className={"flex items-center nav_links  justify-between w-3/5 "}>
+      <motion.div id='header_links' className={"flex items-center nav_links  justify-between w-4/5 "}>
         <motion.div className={"link_item"} variants={linkVariants} whileHover="hover">
           <Link href="/">Asosiy</Link>
         </motion.div>

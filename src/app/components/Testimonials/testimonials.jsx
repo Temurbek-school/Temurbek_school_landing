@@ -38,11 +38,7 @@ export default function Testimonials() {
                 className="w-full sm:w-2/3 md:w-1/3 px-4 flex-shrink-0"
               >
                 <div className="bg-gradient-to-r dark:from-blue-800 dark:via-indigo-900 dark:to-blue-950 from-blue-700 via-indigo-800 to-blue-900 p-6 rounded-lg shadow-xl text-center transform hover:scale-105 transition-transform duration-300">
-                  <img
-                    src={testimonial.image}
-                    alt={`${testimonial.name}'s photo`}
-                    className="w-20 h-20 sm:w-24 sm:h-24 mx-auto rounded-full mb-4 border-4 border-white shadow-md"
-                  />
+                  
                   <h3 className="font-semibold text-lg sm:text-xl text-white">
                     {testimonial.name}
                   </h3>
