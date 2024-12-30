@@ -30,7 +30,7 @@ export default function FooterComp() {
                 </div>
             </div>
             <div>
-                <h1 className='text-xl font-semibold'>Aloqaga chiqing</h1>
+                <h1 className='text-xl font-semibold' >Aloqaga chiqing</h1>
                 <p className='mt-2 text-gray-400'>+998 97 912-29-95</p>
                 <p className='text-gray-400'>Telegram</p>
             </div>

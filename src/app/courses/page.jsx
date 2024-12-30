@@ -180,6 +180,7 @@ const CourseComponent = () => {
                     variant="contained"
                     color="secondary"
                     onClick={() => handleLeaveRequest()}
+                    
                   >
                     Aloqaga Chiqish
                   </Button>

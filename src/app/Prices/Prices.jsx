@@ -8,7 +8,7 @@ export default function Prices() {
         <h1 className='w-fit  flex items-center justify-center text-4xl bg-opacity-95 rounded-lg pl-5 pr-5 pt-2 pb-2 bg-orange-600 ml-auto mr-auto hover:bg-green-700 active:bg-green-900'>Bizdagi kurslar</h1>
         <div className='flex flex-wrap justify-center gap-5 mt-10 text-white'>
         
-            <div className='bg-neutral-800 px-12 py-7 rounded-3xl w-96'>
+            <div className='px-12 py-7 rounded-3xl w-96' style={{ backgroundColor: "#45464d" }}>
                 <span className='bg-green-500 p-3 rounded-xl'>GENERAL ENGLISH</span>
                 <p className='text-xl my-6'>Ingliz tilini 0 dan boshlab <br />
                     Upper Intermediate darajada <br />
@@ -17,7 +17,7 @@ export default function Prices() {
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Gapirishga qaratilingan darslar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Yuqori darajadagi o'qituvchilar</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Haftada 3 marta 2 soatdan darslar</p>
-                <ContactButton/>
+                <ContactButton />
             </div>
             <div className='bg-orange-500 px-12 py-7 rounded-3xl w-96'>
                 <span className='bg-green-500 p-3 rounded-xl'>IELTS</span>
@@ -31,7 +31,7 @@ export default function Prices() {
                 <ContactButton/>
             </div>
             <div className='bg-blue-900 px-12 py-7 rounded-3xl w-96'>
-                <span className='bg-green-500 p-3 rounded-xl'>Matemetika</span>
+                <span className='bg-green-500 p-3 rounded-xl'>Matematika</span>
                 <p className='text-xl my-6'>Matematika fanini 0 dan <br />
                 boshlab Intermediate darajada <br /> o'rganmoqchilar uchun</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Guruhdagi o'qvuchilar soni 15-25ta</p>
@@ -40,8 +40,8 @@ export default function Prices() {
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Haftada 3 marta 2 soatdan darslar</p>
                 <ContactButton/>
             </div>
-            <div className='bg-green-600 px-12 py-7 rounded-3xl w-96'>
-                <span className='bg-green-500 p-3 rounded-xl'>Rus tili</span>
+            <div className='bg-teal-700 px-12 py-7 rounded-3xl w-96' >
+                <span className='bg-green-500 p-3 rounded-xl'>Rus tili </span>
                 <p className='text-xl my-6'>Rus tili fanini 0 dan <br />
                 boshlab Intermediate darajada <br /> o'rganmoqchilar uchun</p>
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Guruhdagi o'qvuchilar soni 15-25ta</p>
@@ -50,7 +50,7 @@ export default function Prices() {
                 <p className='flex items-center m-2 ml-0'><img className='mr-1' width={20} src="/check.png" alt="" />Haftada 3 marta 2 soatdan darslar</p>
                 <ContactButton/>
             </div>
-            <div className='bg-red-700 px-12 py-7 rounded-3xl w-96'>
+            <div className='px-12 py-7 rounded-3xl w-96' style={{ backgroundColor: "#334155" }}>
                 <span className='bg-green-500 p-3 rounded-xl'>TOPIK</span>
                 <p className='text-xl my-6'>Koreys tili fanini 0 dan <br />
                 boshlab Intermediate darajada <br /> o'rganmoqchilar uchun</p>
