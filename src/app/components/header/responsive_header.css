@@ -14,7 +14,7 @@
   .link_item{
     text-align: center;
     border: 2px solid white;
-    width: 230px;
+    width: 100%;
   }
 .enabled{
   display: flex !important;
