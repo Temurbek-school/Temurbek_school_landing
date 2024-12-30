@@ -43,10 +43,10 @@ export default function AboutUsComponet() {
           variants={textImageVariants}
         />
         <motion.p
-          className="bg-opac w-3/6 shadow-md bg-opacity-80 bg-fuchsia-950 text-xl px-5 pt-5 p-2 about--us_text_part"
+          className="bg-opac w-3/6 shadow-md bg-opacity-80 bg-fuchsia-950 text-xl px-5 pt-5 p-2 about__us_text_part"
           variants={textImageVariants}
         >
-          Temurbek Maktabi <b> Temurbek Shaxobov</b> tomonidan tashkil etilgan bo'lib, Temurbek Shakhobov <em>yetti</em> yildan ortiq ta'lim
+          Temurbek School O'quv Markazi <b> Temurbek Shaxobov</b> tomonidan tashkil etilgan bo'lib, Temurbek Shakhobov <em>yetti</em> yildan ortiq ta'lim
           berish tajribasiga ega bo‘lgan o‘qituvchidir. Temurbek Shakhobov <b>Umumiy Ingliz tili, CEFR, Multilevel testlar, IELTS, TKT va
           ESOL</b> bo‘yicha dars berib keladi. Ustozning rahbarligi ostida talabalar doimiy ravishda yuqori natijalarga erishib, Umumiy Ingliz
           tili va CEFR bo‘yicha C1 darajasiga erishdilar, shuningdek, 20 dan ortiq talabalar 7.0 va undan yuqori IELTS ballarini olishgan.
@@ -62,12 +62,12 @@ export default function AboutUsComponet() {
         variants={textImageVariants}
       >
         <motion.p
-          className="bg-opac w-3/6 shadow-md bg-opacity-80 bg-fuchsia-950 text-xl px-5 pt-5 p-2 about--us_text_part"
+          className="bg-opac w-3/6 shadow-md bg-opacity-80 bg-fuchsia-950 text-xl px-5 pt-5 p-2 about__us_text_part"
           variants={textImageVariants}
         >
-          Temurbek Maktabi - bu Umumiy Ingliz tili, CEFR, TKT va IELTS bo‘yicha ta’lim berishga ixtisoslashgan ta’lim markazi. Kurslar yuqori
+          Temurbek School O'quv Markazi - bu Umumiy Ingliz tili, CEFR, TKT va IELTS bo‘yicha ta’lim berishga ixtisoslashgan ta’lim markazi. Kurslar yuqori
           malakali o‘qituvchilar tomonidan olib boriladi va talabalarining muloqot qilish ko‘nikmalarini oshirishga alohida e’tibor qaratiladi.
-          Talabalar darajasini aniqroq baholash va ularning rivojlanishini kuzatib borish uchun har uch oyda bir marta daraja baholash
+          Talabalar darajasini aniqroq baholash va ularning rivojlanishini kuzatib borish uchun har uch oyda bir marta darajani baholash
           imtihonlari o‘tkaziladi.
         </motion.p>
         <motion.img

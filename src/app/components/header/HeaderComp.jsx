@@ -63,7 +63,7 @@ header_links.classList.toggle("enabled")
       <img src="/logo.jpg" className="w-10 h-10 rounded-md" alt="Logo" />
       </motion.div>
 
-      <motion.div id='header_links' className={"flex items-center nav_links  justify-between w-3/5 nav_links"}>
+      <motion.div id='header_links' className={"flex items-center nav_links  justify-between w-3/5 "}>
         <motion.div className={"link_item"} variants={linkVariants} whileHover="hover">
           <Link href="/">Asosiy</Link>
         </motion.div>
@@ -79,7 +79,7 @@ header_links.classList.toggle("enabled")
       </motion.div>
 
       <ContactButton />
-      <Button onClick={()=>handleToglePie()} className='w-5 h-4 flex items-center justify-center color-white bg-blue-500'><img src='/menu.svg'></img></Button>
+      <button id='pie_toggler' onClick={()=>handleToglePie()} className='w-5 h-4  items-center hidden justify-center color-white bg-blue-500'><img src='/menu.svg'></img></button>
     </motion.header>
   );
 }
