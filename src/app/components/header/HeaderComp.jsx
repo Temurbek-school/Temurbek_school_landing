@@ -76,11 +76,11 @@ header_links.classList.toggle("enabled")
         <motion.div className={"link_item"} variants={linkVariants} whileHover="hover">
           <Link href="/mocks">Mock imtihonlar</Link>
         </motion.div>
-      <ContactButton />
+      <div id='header_contact_part mt-5'><ContactButton  /></div>
       </motion.div>
 
-      <Button variant='contained' color='warning' className='btn'>Temurbek School</Button> 
-      <button id='pie_toggler' onClick={()=>handleToglePie()} className='w-5 h-4  items-center hidden justify-center color-white bg-blue-500'><img src='/menu.svg'></img></button>
+      <Button variant='contained' id='header_contact_part' color='warning' className='btn'>Temurbek School</Button> 
+      <button id='pie_toggler' variant='contained' onClick={()=>handleToglePie()} className='w-8  items-center hidden justify-center color-white bg-violet-600 rounded-md'><img src='/menu.svg'></img></button>
     </motion.header>
   );
 }
