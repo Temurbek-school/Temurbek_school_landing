@@ -1,0 +1,29 @@
+
+.res_footer{
+    position: relative;
+}
+.res_float{
+    position: absolute;
+    background-image:linear-gradient(violet,darkblue);
+    opacity: 1;
+    top:-130;
+    z-index: 101;
+}
+@media (max-width: 480px) {
+    .res_footer{
+      flex-direction: column;
+      padding:20px;
+      padding-bottom: 0;
+      gap: 20;
+      padding-bottom: 25px;
+      font-size: 15px;
+    }
+    .res_float{
+        flex-direction: column;
+        position: static;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    }
+    
