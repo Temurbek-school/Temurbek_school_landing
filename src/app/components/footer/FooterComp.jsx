@@ -34,7 +34,7 @@ export default function FooterComp() {
       {/* TODO Ibrohimbey footerni togirlang */}
       <motion.section
         className={
-          'flex items-center justify-between disabled: bg-violet-800 w-4/5 p-8 z-20 rounded-2xl shadow-lg absolute top-20 ' +
+          'flex items-center justify-between disabled: bg-violet-800 w-4/5 p-8 -z-30 rounded-2xl shadow-lg absolute top-20 ' +
           styles.res_float
         }
         variants={itemVariants}
@@ -47,18 +47,18 @@ export default function FooterComp() {
             qo'ying - hoziroq bepul sinov darsiga yoziling.
           </p>
         </motion.div>
-        <motion.div variants={itemVariants}>
+        <motion.div className='mt-5' variants={itemVariants}>
           <ContactButton />
         </motion.div>
       </motion.section>
 
       <motion.section
-        className={'flex items-start justify-center gap-52 border-b-2 border-gray-500 pb-5 ' + styles.res_footer}
+        className={'flex items-start justify-between w-full border-b-2 border-gray-500 pb-5 ' + styles.res_footer}
         variants={sectionVariants}
       >
         <motion.div className={styles.footer_container} variants={itemVariants}>
           <h1 className='text-3xl pb-0 font-semibold text-yellow-500'>Temurbek School</h1>
-          <p className='mt-2 text-gray-400'>
+          <p className='mt-2 text-gray-400 mb-5 '>
             Temurbek School: O'zbekistonning eng yuqori IELTS <br />
             o'qituvchilari uyi, 7.5 ball olganlar va CEFR sertifikatiga <br />
             ega o'qituvchilar soni bo'yicha yetakchi. Biz barcha <br />
