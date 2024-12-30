@@ -28,7 +28,7 @@ export default function ContactForm() {
         <label className='text-white'>Kursni tanlang:</label>
         <select  className='flex w-full item-center justify-center mb-2 outline-none rounded-sm'>
           <option  disabled value={null}>--Kursni tanlang--</option>
-          {coursesData.kurslar.map((item,index)=><option className='w-full text-white bg-violet-800' value={item.nomi}>{index+1} {item.nomi}</option>)}
+          {coursesData.kurslar.map((item,index)=><option key={index} className='w-full text-white bg-violet-800' value={item.nomi}>{index+1} {item.nomi}</option>)}
         </select>
         <Button variant='contained' type='submit'  color='secondary'>Yuborish</Button>
       </form>
