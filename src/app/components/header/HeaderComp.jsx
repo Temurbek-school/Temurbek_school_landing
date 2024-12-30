@@ -76,9 +76,10 @@ header_links.classList.toggle("enabled")
         <motion.div className={"link_item"} variants={linkVariants} whileHover="hover">
           <Link href="/mocks">Mock imtihonlar</Link>
         </motion.div>
+      <ContactButton />
       </motion.div>
 
-      <ContactButton />
+      <Button variant='contained' color='warning' className='btn'>Temurbek School</Button> 
       <button id='pie_toggler' onClick={()=>handleToglePie()} className='w-5 h-4  items-center hidden justify-center color-white bg-blue-500'><img src='/menu.svg'></img></button>
     </motion.header>
   );
