@@ -37,7 +37,7 @@ export default function MocksPage() {
     <div>
       <section className='flex items-center justify-between px-20 py-32'>
         <div>
-          <h1 className='text-2xl'>Temurbek School ga xush kelibsiz!</h1>
+          <h1 className='text-2xl'>TEMURBEK SCHOOLga xush kelibsiz!</h1>
           <p className='text-5xl my-5'>Biz bilan yangi cho'qqilarni <br />zabt eting!</p>
           <p className='mb-2'>Bizning tajribamiz va innovatsion yondashuvlarimiz yordamida o'z imkoniyatlaringizni yana bir bor <br />
             sinab ko'ring, yangi cho'qqilarni zabt eting va o'z oldingizga qo'ygan maqsadlarga yanada ishonch <br />
@@ -98,7 +98,7 @@ export default function MocksPage() {
       </section>
 
       <section className="px-20 py-32'">
-        <p className="mb-5">🚀Nima uchun aynan Temurbek School ni tanlashingiz kerak?🚀</p>
+        <p className="mb-5">🚀Nima uchun aynan TEMURBEK SCHOOL ni tanlashingiz kerak?🚀</p>
         <div className="flex flex-wrap items-center justify-center gap-5">
 
           <div className="flex flex-col justify-start rounded-2xl w-96 h-40 p-4 border border-slate-500">

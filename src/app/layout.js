@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Temurbek School",
-  description: "Official web page of Temurbek School",
+  title: "TEMURBEK SCHOOL",
+  description: "Official web page of TEMURBEK SCHOOL",
 };
 export default function RootLayout({ children }) {
 

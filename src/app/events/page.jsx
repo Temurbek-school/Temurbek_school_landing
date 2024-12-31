@@ -10,7 +10,7 @@ export default function EventsPage() {
           <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
             <h2 className="text-4xl font-bold text-white mb-6">Biz bilan zavqlaning!</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
-            Temurbek Schoolda ta'lim olishni qiziqarli va mazmunli tadbirlar bilan boyitamiz. 
+            TEMURBEK SCHOOLda ta'lim olishni qiziqarli va mazmunli tadbirlar bilan boyitamiz. 
             Seminarlar, interaktiv mashg'ulotlar, sport tadbirlari va jamoaviy o'yinlarda qatnashing, 
             unutilmas lahzalarga ega bo'ling!
             </p>

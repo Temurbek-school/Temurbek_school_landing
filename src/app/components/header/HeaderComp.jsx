@@ -89,7 +89,7 @@ header_links.classList.toggle("enabled")
 </motion.div>
 
 
-      <Button variant='contained' id='header_contact_part' color='warning' className='btn'>Temurbek School</Button> 
+      <Button variant='contained' id='header_contact_part' color='warning' className='btn'>TEMURBEK SCHOOL</Button> 
       <button id='pie_toggler' variant='contained' onClick={()=>handleToglePie()} className='w-8  items-center hidden justify-center color-white bg-violet-600 rounded-md'><img src='/menu.svg'></img></button>
     </motion.header>
   );

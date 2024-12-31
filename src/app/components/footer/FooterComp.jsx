@@ -57,9 +57,9 @@ export default function FooterComp() {
         variants={sectionVariants}
       >
         <motion.div className={styles.footer_container} variants={itemVariants}>
-          <h1 className='text-3xl pb-0 font-semibold text-yellow-500'>Temurbek School</h1>
+          <h1 className='text-3xl pb-0 font-semibold text-yellow-500'>TEMURBEK SCHOOL</h1>
           <p className='mt-2 text-gray-400 mb-5 '>
-            Temurbek School: O'zbekistonning eng yuqori IELTS <br />
+          TEMURBEK SCHOOL: O'zbekistonning eng yuqori IELTS <br />
             o'qituvchilari uyi, 7.5 ball olganlar va CEFR sertifikatiga <br />
             ega o'qituvchilar soni bo'yicha yetakchi. Biz barcha <br />
             darajadagi talabalarga ilg'or, talabaga yo'naltirilgan <br />
@@ -75,7 +75,7 @@ export default function FooterComp() {
         </motion.div>
 
         <motion.div className={styles.footer_container} variants={itemVariants}>
-          <h1 className='text-xl font-semibold'>Temurbek School</h1>
+          <h1 className='text-xl font-semibold'>TEMURBEK SCHOOL</h1>
           <p className='mt-2 text-gray-400'>Biz haqimizda</p>
           <p className='text-gray-400'>O'qituvchilar</p>
           <p className='text-gray-400'>Kurslar</p>
