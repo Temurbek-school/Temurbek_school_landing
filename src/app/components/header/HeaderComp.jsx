@@ -62,22 +62,32 @@ header_links.classList.toggle("enabled")
         
       <img src="/logo.jpg" className="w-10 h-10 rounded-md" alt="Logo" />
       </motion.div>
+      <motion.div id='header_links' className={"flex items-center nav_links justify-between w-4/5 "}>
+  <Link onClick={() => handleToglePie()} className="bg-orange-500 w-full" href="/">
+    <motion.div className="link_item w-full" variants={linkVariants} whileHover="hover">
+      Asosiy
+    </motion.div>
+  </Link>
+  <Link onClick={() => handleToglePie()} className="bg-orange-500 w-full" href="/courses">
+    <motion.div className="link_item w-full" variants={linkVariants} whileHover="hover">
+      Kurslar
+    </motion.div>
+  </Link>
+  <Link onClick={() => handleToglePie()} className="bg-orange-500 w-full" href="/events">
+    <motion.div className="link_item w-full" variants={linkVariants} whileHover="hover">
+      Tadbirlar
+    </motion.div>
+  </Link>
+  <Link onClick={() => handleToglePie()} className="bg-orange-500 w-full" href="/mocks">
+    <motion.div className="link_item w-full" variants={linkVariants} whileHover="hover">
+      Mock imtihonlar
+    </motion.div>
+  </Link>
+  <div id='header_contact_part mt-5'>
+    <ContactButton />
+  </div>
+</motion.div>
 
-      <motion.div id='header_links' className={"flex items-center nav_links  justify-between w-4/5 "}>
-        <motion.div className={"link_item"} variants={linkVariants} whileHover="hover">
-          <Link href="/">Asosiy</Link>
-        </motion.div>
-        <motion.div className={"link_item"} variants={linkVariants} whileHover="hover">
-          <Link href="/courses">Kurslar</Link>
-        </motion.div>
-        <motion.div className={"link_item"} variants={linkVariants} whileHover="hover">
-          <Link href="/events">Tadbirlar</Link>
-        </motion.div>
-        <motion.div className={"link_item"} variants={linkVariants} whileHover="hover">
-          <Link href="/mocks">Mock imtihonlar</Link>
-        </motion.div>
-      <div id='header_contact_part mt-5'><ContactButton  /></div>
-      </motion.div>
 
       <Button variant='contained' id='header_contact_part' color='warning' className='btn'>Temurbek School</Button> 
       <button id='pie_toggler' variant='contained' onClick={()=>handleToglePie()} className='w-8  items-center hidden justify-center color-white bg-violet-600 rounded-md'><img src='/menu.svg'></img></button>
