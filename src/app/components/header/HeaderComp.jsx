@@ -72,7 +72,7 @@ export default function HeaderComp() {
 						Mock imtihonlar
 					</motion.div>
 				</Link>
-				<motion.div className="link_item w-full" variants={linkVariants} whileHover="hover">
+				<motion.div className="link_item w-full" onClick={()=>handleToglePie()} variants={linkVariants} whileHover="hover">
 					<ContactButton />
           </motion.div>
 				{/* </div> */}

@@ -3,6 +3,7 @@
 }
 
   @media (max-width: 900px) {
+
   .nav_links{
     display: none !important;
     background-image:linear-gradient(violet,blue);
@@ -25,8 +26,8 @@
 #pie_toggler{
 display:flex !important;
 }
-/* #header_contact_part{
+#header_contact_part{
   display: flex !important;
-} */
+}
   }
   
