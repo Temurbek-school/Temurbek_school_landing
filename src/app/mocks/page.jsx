@@ -1,38 +1,8 @@
 'use client';
-import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import ContactButton from '../components/ContactButton/ContactButton';
 
 export default function MocksPage() {
-  const images = [
-    "/mock-image2.jpg",
-    "/mock-image3.jpg",
-    "/mock-image4.jpg",
-    "/mock-image5.jpg",
-    "/mock-image6.jpg",
-    "/mock-image7.jpg",
-    "/mock-image8.jpg",
-    "/mock-image9.jpg"
-  ];
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4000); // Change every 3 seconds
-    return () => clearInterval(interval);
-  }, [images.length]);
-
-  const goToPrevious = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
-
-  const goToNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
 
   return (
     <div>
@@ -64,59 +34,32 @@ export default function MocksPage() {
       </motion.section>
 
       <motion.section
-        className="px-5 lg:px-20 py-16 lg:scroll-py-40"
+        className="px-5 lg:px-20 pt-14 lg:scroll-py-40"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.2 }}
       >
-        <p className="text-xl lg:text-2xl text-center lg:text-left">Mock Exam Atmosphere</p>
-        <div className="flex items-center justify-center mt-20 lg:scale-125">
-          <div className="relative w-full max-w-4xl overflow-hidden">
-            {/* Slider images */}
-            <div
-              className="flex transition-transform duration-500"
-              style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-            >
-              {images.map((image, index) => (
-                <motion.img
-                  key={index}
-                  src={image}
-                  alt={`Slide ${index + 1}`}
-                  className="w-full h-64 object-cover"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: index * 0.2 }}
-                />
-              ))}
-            </div>
-
-            {/* Previous button */}
-            <button
-              className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full"
-              onClick={goToPrevious}
-            >
-              ‹
-            </button>
-
-            {/* Next button */}
-            <button
-              className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full"
-              onClick={goToNext}
-            >
-              ›
-            </button>
-          </div>
+        <p className="text-xl lg:text-2xl text-center lg:text-left">Mock Imtihon Atmosferasi</p>
+        <div className="flex flex-wrap items-center justify-center gap-7">
+          <img className="h-56" src="/mock-image8.jpg" alt="" />
+          <img className="h-56" src="/mock-image2.jpg" alt="" />
+          <img className="h-56" src="/mock-image3.jpg" alt="" />
+          <img className="h-56" src="/mock-image4.jpg" alt="" />
+          <img className="h-56" src="/mock-image5.jpg" alt="" />
+          <img className="h-56" src="/mock-image6.jpg" alt="" />
+          <img className="h-56" src="/mock-image7.jpg" alt="" />
+          <img className="h-56" src="/mock-image1.jpg" alt="" />
         </div>
       </motion.section>
 
       <motion.section
-        className="px-5 lg:px-20 py-16 lg:py-32"
+        className="px-5 lg:px-20 pt-10 lg:py-20 flex items-center flex-col"
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.5 }}
       >
-        <p className="mb-5 text-center lg:text-left">🚀Nima uchun aynan Temurbek School ni tanlashingiz kerak?🚀</p>
-        <div className="flex flex-wrap items-center justify-center gap-5">
+        <p className="w-auto p-3 rounded-xl mb-5 mt-10 text-center bg-blue-800 bg-opacity-50">🚀Nima uchun aynan Temurbek School ni tanlashingiz kerak?🚀</p>
+        <div className="flex flex-wrap items-center justify-center gap-8 lg:scale-105">
           {[
             { title: "Haqiqiy IELTS imtihoni atmosferasi", desc: "IELTS ZONE siz uchun haqiqiy IELTS imtihon atmosferasini yaratadi." },
             { title: "Real exam materiallar", desc: "O'quvchilar haqiqiy IELTS imtihonida tushgan materiallarni bajaradi." },
