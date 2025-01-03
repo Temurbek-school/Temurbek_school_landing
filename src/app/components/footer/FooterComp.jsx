@@ -28,7 +28,7 @@ export default function FooterComp() {
       variants={sectionVariants}
     >
       <motion.section
-        className={`flex items-center justify-between bg-violet-800 w-4/5 p-8 rounded-2xl shadow-lg absolute top-20 ${styles.res_float}`}
+        className={`flex items-center justify-between bg-violet-800 w-4/5 p-8 rounded-2xl shadow-lg absolute ${styles.res_float}`}
         variants={itemVariants}
       >
         <motion.div variants={itemVariants}>
