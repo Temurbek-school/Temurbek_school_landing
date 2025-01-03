@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from './responsive.module.css'; // Import the responsive CSS
 
 export default function ImageSlider() {
@@ -39,6 +39,23 @@ export default function ImageSlider() {
     }
   };
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const newIndex = imageNumber + 2;
+      if (newIndex + 1 < images.length) {
+        setDisplayImages([images[newIndex], images[newIndex + 1]]);
+        setImageNumber(newIndex);
+      } else {
+        // Reset to the start when reaching the end
+        setDisplayImages([images[0], images[1]]);
+        setImageNumber(0);
+      }
+    }, 5000);
+
+    // Cleanup interval on unmount
+    return () => clearInterval(interval);
+  }, [imageNumber]);
+
   return (
     <div className="bg-indigo-900 text-white py-8 w-full">
       <div className="text-center mb-4 relative z-10">
@@ -47,7 +64,7 @@ export default function ImageSlider() {
         </h2>
       </div>
 
-      <div   className={"relative w-full flex items-center justify-around "+styles.image_container}>
+      <div className={"relative w-full flex items-center justify-around " + styles.image_container}>
         {displayImages.map((item, index) => (
           <img
             key={index}
