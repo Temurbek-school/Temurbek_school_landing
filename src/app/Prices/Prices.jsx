@@ -1,3 +1,4 @@
+import "./responsive.css"
 export default function Prices() {
     return (
         <section className='flex flex-col pt-10'>
@@ -6,7 +7,7 @@ export default function Prices() {
             </h1>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 sm:mt-10 text-white'>
                 {/* GENERAL ENGLISH */}
-                <div className='px-12 py-7 rounded-3xl w-96 bg-gray-800 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-gray-700 '>
+                <div id="subject_container" className='px-12 py-7 rounded-3xl w-96 bg-gray-800 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-gray-700 '>
                     <span className='bg-green-500 p-3 rounded-xl'>GENERAL ENGLISH</span>
                     <p className='text-xl my-6'>
                         Ingliz tilini 0 dan boshlab <br />
@@ -28,7 +29,7 @@ export default function Prices() {
                 </div>
 
                 {/* IELTS */}
-                <div className='px-12 py-7 rounded-3xl w-96 bg-orange-500 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-orange-400'>
+                <div id="subject_container" className='px-12 py-7 rounded-3xl w-96 bg-orange-500 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-orange-400'>
                     <span className='bg-green-500 p-3 rounded-xl'>IELTS</span>
                     <p className='text-xl my-6'>
                         Ingliz tilini Intermediate <br />
@@ -50,7 +51,7 @@ export default function Prices() {
                 </div>
 
                 {/* Matematika */}
-                <div className='px-12 py-7 rounded-3xl w-96 bg-blue-900 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-blue-800'>
+                <div id="subject_container" className='px-12 py-7 rounded-3xl w-96 bg-blue-900 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-blue-800'>
                     <span className='bg-green-500 p-3 rounded-xl'>Matematika</span>
                     <p className='text-xl my-6'>
                         Matematika fanini 0 dan <br />
@@ -72,7 +73,7 @@ export default function Prices() {
                 </div>
 
                 {/* Rus tili */}
-                <div className='px-12 py-7 rounded-3xl w-96 bg-teal-700 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-teal-600'>
+                <div id="subject_container" className='px-12 py-7 rounded-3xl w-96 bg-teal-700 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-teal-600'>
                     <span className='bg-green-500 p-3 rounded-xl'>Rus tili</span>
                     <p className='text-xl my-6'>
                         Rus tili fanini 0 dan <br />
@@ -94,7 +95,7 @@ export default function Prices() {
                 </div>
 
                 {/* TOPIK */}
-                <div className='px-12 py-7 rounded-3xl w-96 bg-[#334155] transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-[#4f6872]'>
+                <div id="subject_container" className='px-12 py-7 rounded-3xl w-96 bg-[#334155] transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-[#4f6872]'>
                     <span className='bg-green-500 p-3 rounded-xl'>TOPIK</span>
                     <p className='text-xl my-6'>
                         Koreys tili fanini 0 dan <br />
@@ -116,7 +117,7 @@ export default function Prices() {
                 </div>
 
                 {/* Prezident maktabiga tayyorlash */}
-                <div className='px-12 py-7 rounded-3xl w-96 bg-violet-700 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-violet-600'>
+                <div id="subject_container" className='px-12 py-7 rounded-3xl w-96 bg-violet-700 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:bg-violet-600'>
                     <span className='bg-green-500 p-3 rounded-xl'>Prezident maktabiga tayyorlash</span>
                     <p className='text-xl my-6'>
                         Prezident maktabiga kirishni <br />
