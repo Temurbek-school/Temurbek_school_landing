@@ -1,11 +1,9 @@
 'use client';
 
-import { useState } from "react";
+import { useState } from 'react';
+import styles from './responsive.module.css'; // Import the responsive CSS
 
 export default function ImageSlider() {
-
-  
-  const imageCount=3
   const images = [
     "assets/images/doppi.jpg",
     "assets/images/congrats.jpg",
@@ -19,43 +17,60 @@ export default function ImageSlider() {
     "assets/images/lpa_lesson.jpg",
     "assets/images/lpa_all.jpg",
     "assets/images/hippo_all.jpg",
+    "/9.jpg",
   ];
-  const [imageNumber,setImageNumber]=useState(0)
-  const [displayImages,setDisplayImages]=useState([images[imageNumber],images[imageNumber+1]])
 
+  const [imageNumber, setImageNumber] = useState(0);
+  const [displayImages, setDisplayImages] = useState([images[0], images[1]]);
 
+  const filterImages = () => {
+    const newIndex = imageNumber + 2;
+    if (newIndex + 1 < images.length) {
+      setDisplayImages([images[newIndex], images[newIndex + 1]]);
+      setImageNumber(newIndex);
+    }
+  };
 
-  const filterimages=()=>{
-
-    const image1=document.getElementById("0")
-    const image2=document.getElementById("1")
-   image1.src=images[imageNumber+1]
-   image2.src=images[imageNumber+2]
-   setImageNumber(imageNumber+2)
-  }
-  
-  const filterPrevious=()=>{
-    const image1=document.getElementById("0")
-    const image2=document.getElementById("1")
-   image1.src=images[imageNumber-11]
-   image2.src=images[imageNumber-2]
-   setImageNumber(imageNumber-2)
-  }
-
+  const filterPrevious = () => {
+    const newIndex = imageNumber - 2;
+    if (newIndex >= 0) {
+      setDisplayImages([images[newIndex], images[newIndex + 1]]);
+      setImageNumber(newIndex);
+    }
+  };
 
   return (
     <div className="bg-indigo-900 text-white py-8 w-full">
-
       <div className="text-center mb-4 relative z-10">
-        <h2 className="bg-green-700 text-4xl font-bold tracking-wide rounded-lg uppercase shadow-md max-w-4xl mx-auto">Achievements</h2>
+        <h2 className={`bg-green-700 text-4xl font-bold tracking-wide rounded-lg uppercase shadow-md max-w-4xl mx-auto ${styles.title}`}>
+          Achievements
+        </h2>
       </div>
 
-      <div className="relative w-full flex flex-wrap items-center justify-around">
-{displayImages.map((item,index)=><img id={index} key={index} className=" h-96" src={item}/>)}
+      <div   className={"relative w-full flex items-center justify-around "+styles.image_container}>
+        {displayImages.map((item, index) => (
+          <img
+            key={index}
+            className={`h-96 mx-2 ${styles.image}`}
+            src={item}
+            alt={`Slide ${index}`}
+          />
+        ))}
 
-<button className="absolute top-1/2 text-3xl left-0" disabled={imageNumber<2} onClick={()=>filterPrevious()}>⬅️</button>
-<button className="absolute top-1/2 text-3xl right-0" disabled={imageNumber>10} onClick={()=>filterimages()}>➡️</button>
-      
+        <button
+          className={`absolute top-1/2 left-4 text-3xl bg-green-600 p-2 rounded-full shadow hover:bg-green-700 disabled:opacity-50 ${styles.button}`}
+          onClick={filterPrevious}
+          disabled={imageNumber <= 0}
+        >
+          ⬅️
+        </button>
+        <button
+          className={`absolute top-1/2 right-4 text-3xl bg-green-600 p-2 rounded-full shadow hover:bg-green-700 disabled:opacity-50 ${styles.button}`}
+          onClick={filterImages}
+          disabled={imageNumber + 2 >= images.length}
+        >
+          ➡️
+        </button>
       </div>
     </div>
   );
